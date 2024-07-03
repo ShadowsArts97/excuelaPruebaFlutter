@@ -55,7 +55,7 @@ class _ProgressBarState extends State<ProgressBar>
           child: Stack(
             alignment: Alignment.center,
             children: [
-              Container(
+              SizedBox(
                 width: size.width * 0.5,
                 height: size.height * 0.25,
                 child: CircularProgressIndicator(
